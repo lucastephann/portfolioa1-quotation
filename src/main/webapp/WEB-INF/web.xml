@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>quotationController</servlet-name>
+    <servlet-class>br.com.lucastephann.quotation.controller.QuotationController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>quotationController</servlet-name>
+    <url-pattern>/quotation</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
